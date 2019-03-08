@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="icon" href="https://d1jfzjx68gj8xs.cloudfront.net/items/1J0Y1N1I441v1E2k3e2W/weather.png">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <meta charset="utf-8">
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="main-content">
+      <h1>Weather</h1>
+
+      {{>header}}
+
+      <p>{{content}}</p>
+
+      <form>
+        <input type="text" placeholder="Location" name="location">
+        <button type="submit">Search</button>
+      </form>
+
+      <p id="message-1"></p>
+      <p id="message-2"></p>
+    </div>
+
+
+    {{>footer}}
+        <script type="text/javascript" src="/js/script.js"></script>
+  </body>
+</html>
